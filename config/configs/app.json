@@ -1,0 +1,15 @@
+{
+    "appUrl": {
+        "default": "https://api.superpowerfunnels.com",
+        "env" : "APP_URL"
+    },
+    "override" : {
+        "default" : "./config/deployment.json"
+    },
+    "jwtsecret": {
+        "default": "k94e7173-b81b-29e9-badc-915212e3b5e7",
+        "env" : "JWT_SECRET"
+    },
+    "jwtexpiry": 2880
+
+}

@@ -1,0 +1,24 @@
+{
+
+    "host": {
+        "doc": "smtp hostname",
+        "default": "",
+        "env" : "SMTP_HOST"
+    },
+    "port": {
+        "doc": "smtp port",
+        "format": "int",
+        "default": 465,
+        "env" : "SMTP_PORT"
+    },
+    "email": {
+        "doc": "smtp email",
+        "default": "",
+        "env" : "SMTP_EMAIL"  
+    },
+    "password": {
+        "doc": "smtp password",
+        "default": "",
+        "env" : "SMTP_PASSWORD"  
+    }
+}

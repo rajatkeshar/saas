@@ -1,0 +1,12 @@
+{
+    "key": {
+        "doc": "razorpay key",
+        "default": "",
+        "env": "RAZORPAY_KEY"
+    },
+    "secret": {
+        "doc": "razorpay secret",
+        "default": "",
+        "env": "RAZORPAY_SECRET"
+    }
+}

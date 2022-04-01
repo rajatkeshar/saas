@@ -1,0 +1,40 @@
+{
+
+    "host": {
+        "doc": "database hostname",
+        "default": "localhost",
+        "env" : "MYSQL_HOST"
+    },
+    "port": {
+        "doc": "database port",
+        "format": "int",
+        "default": 3306
+    },
+    "database": {
+        "default": "nxgen",
+        "env": "DB_NAME"
+    },
+    "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+    },
+    "dialect": {
+        "default": "mysql"
+    },
+    "userName": {
+        "default": "nxgen",
+        "env": "DB_USERNAME"
+    },
+    "password": {
+        "default": "nxgen",
+        "env": "DB_PASSWORD"
+    },
+    "authEnabled": {
+        "default": false
+    },
+    "authSource": {
+        "default": ""
+    }
+}

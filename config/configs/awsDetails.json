@@ -1,0 +1,27 @@
+{
+    "key": {
+        "doc": "aws key",
+        "default": "",
+        "env": "AWS_KEY"
+    },
+    "secret": {
+        "doc": "aws secret",
+        "default": "",
+        "env": "AWS_SECRET"
+    },
+    "bucket": {
+        "doc": "bucket name",
+        "default": "",
+        "env": "AWS_BUCKET_NAME"
+    },
+    "sizeLimitByBytes": {
+        "doc": "file size limit",
+        "default": 10485760,
+        "env": "UPLOAD_FILE_SIZE_LIMIT"
+    },
+    "cloudfrontUrl": {
+        "doc": "aws host url",
+        "default": "",
+        "env": "AWS_HOST_URL"
+    }
+}

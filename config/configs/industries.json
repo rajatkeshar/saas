@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "industry_id": 1,
+            "industry_name": "ind1",
+            "industry_description": "industry_description1",
+            "region_code": "1234",
+            "country_code": "IN"   
+        },
+        {
+            "industry_id": 2,
+            "industry_name": "ind2",
+            "industry_description": "industry_description2",
+            "region_code": "1234",
+            "country_code": "MY"   
+        },
+        {
+            "industry_id": 3,
+            "industry_name": "ind3",
+            "industry_description": "industry_description3",
+            "region_code": "1234",
+            "country_code": "US"   
+        }
+    ]
+}
